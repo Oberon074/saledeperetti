@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SalesPeretti - Développement Commercial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fc;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0066cc;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #005bb5;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            margin: 0 10px;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            background-color: #004080;
+        }
+        .content {
+            padding: 40px;
+            text-align: center;
+        }
+        .content h2 {
+            color: #005bb5;
+            font-size: 2em;
+        }
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SalesPeretti</h1>
+    <p>Votre partenaire pour le développement commercial des TPE et PME</p>
+</header>
+
+<nav>
+    <a href="#home">Accueil</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="content" id="home">
+    <h2>Accompagnement sur mesure pour votre développement commercial</h2>
+    <p>Chez SalesPeretti, nous proposons une force de vente externalisée pour les TPE et PME. De la prospection à la fidélisation, nous vous aidons à générer des opportunités qualifiées et à optimiser votre performance commerciale avec une approche personnalisée et adaptée à vos besoins.</p>
+</div>
+
+<div class="content" id="services">
+    <h2>Nos Services</h2>
+    <p>Nous vous offrons un accompagnement complet dans les domaines suivants :</p>
+    <ul style="text-align: left; margin: 0 auto; max-width: 600px;">
+        <li>Prospection commerciale</li>
+        <li>Fidélisation client</li>
+        <li>Optimisation des performances commerciales</li>
+        <li>Formation et coaching des équipes commerciales</li>
+    </ul>
+</div>
+
+<div class="content" id="contact">
+    <h2>Contactez-nous</h2>
+    <p>Pour plus d'informations, contactez-nous à <strong>contact@salesperetti.com</strong> ou au <strong>01 23 45 67 89</strong>.</p>
+</div>
+
+<footer>
+    <p>&copy; 2025 SalesPeretti - Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
